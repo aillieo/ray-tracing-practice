@@ -7,7 +7,7 @@
 #include "Hitable.h"
 #include "Material.h"
 
-namespace raytracing
+namespace raytracing_1
 {
     class InOneWeekend {
     public:

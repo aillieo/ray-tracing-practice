@@ -1,6 +1,6 @@
 #include "Ray.h"
 
-namespace raytracing
+namespace raytracing_1
 {
     float schlick(float cosine, float ref_idx) {
         float t = (1 - ref_idx) / (1 + ref_idx);

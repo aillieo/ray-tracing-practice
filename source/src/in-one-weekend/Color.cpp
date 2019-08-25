@@ -1,5 +1,5 @@
 #include "Color.h"
-using namespace raytracing;
+using namespace raytracing_1;
 
 const Color Color::Black(0, 0, 0);
 const Color Color::White(1, 1, 1);

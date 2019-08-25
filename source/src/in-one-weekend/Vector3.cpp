@@ -1,5 +1,5 @@
 #include "Vector3.h"
-using namespace raytracing;
+using namespace raytracing_1;
 
 const Vector3 Vector3::Zero(0,0,0);
 const Vector3 Vector3::One(1,1,1);

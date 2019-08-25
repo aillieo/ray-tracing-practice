@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <iostream>
 
-namespace raytracing
+namespace raytracing_1
 {
 	class Color {
 

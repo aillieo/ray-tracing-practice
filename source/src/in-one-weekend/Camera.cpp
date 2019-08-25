@@ -1,7 +1,7 @@
 
 #include "Camera.h"
 #include "Random.h"
-using namespace raytracing;
+using namespace raytracing_1;
 
 Camera::Camera(Vector3 origin0, Vector3 lookat, Vector3 up, float vfov, float aspect, float aperture, float focusDist)
 {

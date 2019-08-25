@@ -9,7 +9,7 @@
 #include "Random.h"
 
 using namespace std;
-using namespace raytracing;
+using namespace raytracing_1;
 
 Color getColorForRay(const Ray& ray, const Hitable& scene, int depth = 0)
 {

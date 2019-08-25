@@ -3,7 +3,7 @@
 #include <vector>
 
 using namespace std;
-namespace raytracing
+namespace raytracing_1
 {
     class Color;
     class ImageUtils {

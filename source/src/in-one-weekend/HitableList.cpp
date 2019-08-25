@@ -1,6 +1,6 @@
 #include <vector>
 #include "HitableList.h"
-using namespace raytracing;
+using namespace raytracing_1;
 using namespace std;
 
 HitableList::HitableList() {
@@ -33,11 +33,11 @@ bool HitableList::hit(const Ray& r, float t_min, float t_max, RaycastHit& hitInf
 
 
 
-bool HitableList::hit(const raytracing::Ray &r, float maxDistance, raytracing::RaycastHit &hitInfo) const {
+bool HitableList::hit(const Ray &r, float maxDistance, RaycastHit &hitInfo) const {
     return hit(r,0,maxDistance,hitInfo);
 }
 
-const int HitableList::addHitable(const raytracing::Hitable* const hitable) {
+const int HitableList::addHitable(const Hitable* const hitable) {
     hitableList.push_back(hitable);
     return hitableList.size();
 }

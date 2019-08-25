@@ -5,7 +5,7 @@
 #include "Color.h"
 #include "MathUtils.h"
 
-using namespace raytracing;
+using namespace raytracing_1;
 using namespace std;
 
 void ImageUtils::saveImage(const string& file, const vector<int>& ppmStream)

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h> 
 
-using namespace raytracing;
+using namespace raytracing_1;
 using namespace std;
 
 void Random::init(unsigned seed)

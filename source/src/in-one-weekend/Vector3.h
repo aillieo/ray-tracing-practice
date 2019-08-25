@@ -5,7 +5,7 @@
 #include <math.h>
 #include "MathUtils.h"
 
-namespace raytracing
+namespace raytracing_1
 {
     class Vector3 {
 

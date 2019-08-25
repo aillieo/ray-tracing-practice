@@ -1,5 +1,5 @@
 #include "Sphere.h"
-using namespace raytracing;
+using namespace raytracing_1;
 
 
 // (r.pointAtDistance(t) - s.center).length() == s.radius
@@ -37,7 +37,7 @@ Sphere::~Sphere() {
 
 }
 
-bool Sphere::hit(const raytracing::Ray &r, float maxDistance, raytracing::RaycastHit &hitInfo) const { 
+bool Sphere::hit(const Ray &r, float maxDistance, RaycastHit &hitInfo) const { 
     return hit(r,0,maxDistance,hitInfo);
 }
 

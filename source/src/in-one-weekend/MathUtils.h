@@ -3,7 +3,7 @@
 #include <algorithm>
 
 using namespace std;
-namespace raytracing
+namespace raytracing_1
 {
     namespace MathUtils{
 

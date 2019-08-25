@@ -6,7 +6,7 @@
 #include "Hitable.h"
 #include "Random.h"
 
-namespace raytracing
+namespace raytracing_1
 {
     class Material
     {
